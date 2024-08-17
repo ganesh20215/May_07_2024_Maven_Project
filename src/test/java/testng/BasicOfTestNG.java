@@ -22,7 +22,8 @@ public class BasicOfTestNG {
         WebDriver driver = new ChromeDriver(); //Upcasting
         driver.get("https://www.amazon.in");
         driver.manage().window().maximize();
-
+		System.out.println("Good Evening");
+		System.out.println("Hello Buddy");
         driver.close();
     }
 }
