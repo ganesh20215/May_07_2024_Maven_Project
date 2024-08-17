@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="courseName" value="Java "/>
+    <parameter name="cityName" value="Pune"/>
+    <parameter name="browserName" value="Chrome"/>
+    <test verbose="10" parallel="false" thread-count="2" preserve-order="true" name="D:/repo1/clone/May_07_2024_Maven_Project">
+        <classes>
+            <class name="testng.parameterization.ParameterExample"/>
+        </classes>
+    </test>
+</suite>
