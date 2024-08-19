@@ -13,7 +13,6 @@ public class BasicOfTestNG {
         WebDriver driver = new ChromeDriver(); //Upcasting
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
         driver.manage().window().maximize();
-		System.out.println("Hello Java");
     }
 
     @Test
